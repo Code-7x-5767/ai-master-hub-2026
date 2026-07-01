@@ -1029,5 +1029,14 @@ font-weight:bold;
 border-radius:8px;
 
 }
+.tools-grid{
+
+width:90%;
+margin:60px auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+
+}
 
 
