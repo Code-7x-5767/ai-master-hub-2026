@@ -176,4 +176,10 @@ document.body.classList.toggle("dark-mode");
 });
 
 }
+function toggleMenu(){
+
+document.querySelector("nav").classList.toggle("active");
+
+}
+
 
