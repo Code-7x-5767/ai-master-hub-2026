@@ -628,3 +628,51 @@ max-width:100%;
 height:auto;
 
 }
+.newsletter{
+
+width:90%;
+
+margin:50px auto;
+
+text-align:center;
+
+padding:40px;
+
+background:#1f2937;
+
+border-radius:12px;
+
+}
+
+.newsletter input{
+
+padding:14px;
+
+width:300px;
+
+border:none;
+
+border-radius:8px;
+
+margin-top:20px;
+
+}
+
+.newsletter button{
+
+padding:14px 24px;
+
+margin-left:10px;
+
+border:none;
+
+background:#38bdf8;
+
+font-weight:bold;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
