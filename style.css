@@ -485,3 +485,39 @@ from{opacity:.4;}
 to{opacity:1;}
 
 }
+.trending-section{
+width:90%;
+margin:50px auto;
+}
+
+.trending-section h2{
+margin-bottom:20px;
+font-size:32px;
+}
+
+.trending-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.trend-card{
+background:#1f2937;
+padding:20px;
+border-radius:12px;
+transition:.3s;
+cursor:pointer;
+}
+
+.trend-card:hover{
+transform:translateY(-8px);
+background:#374151;
+}
+
+.trend-card h3{
+margin-bottom:10px;
+}
+
+.trend-card p{
+color:#d1d5db;
+}
