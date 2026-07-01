@@ -401,3 +401,46 @@ cursor:pointer;
 .search-box button:hover{
 background:#0ea5e9;
 }
+.breaking-news{
+
+display:flex;
+
+align-items:center;
+
+background:#d90429;
+
+color:#fff;
+
+font-weight:bold;
+
+overflow:hidden;
+
+}
+
+.breaking-title{
+
+background:#000;
+
+padding:12px 18px;
+
+}
+
+.breaking-news marquee{
+
+padding:12px;
+
+flex:1;
+
+}
+
+header{
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+background:#111827;
+
+}
