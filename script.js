@@ -51,3 +51,51 @@ alert("Searching for : "+value);
 }
 
 }
+const news = [
+{
+title:"AI is Changing the World",
+desc:"Artificial Intelligence is growing rapidly across every industry."
+},
+{
+title:"India Tech News",
+desc:"Latest technology updates from India."
+},
+{
+title:"Government Jobs",
+desc:"New recruitment notifications available."
+},
+{
+title:"Cricket Updates",
+desc:"Latest cricket scores and match updates."
+},
+{
+title:"Finance",
+desc:"Market and business news."
+},
+{
+title:"Movies",
+desc:"OTT and Bollywood latest updates."
+}
+];
+
+const newsContainer=document.getElementById("newsContainer");
+
+if(newsContainer){
+
+news.forEach(item=>{
+
+newsContainer.innerHTML+=`
+
+<div class="news-card">
+
+<h3>${item.title}</h3>
+
+<p>${item.desc}</p>
+
+</div>
+
+`;
+
+});
+
+}
