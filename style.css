@@ -521,3 +521,38 @@ margin-bottom:10px;
 .trend-card p{
 color:#d1d5db;
 }
+.sidebar-section{
+width:90%;
+margin:50px auto;
+display:grid;
+grid-template-columns:3fr 1fr;
+gap:30px;
+}
+
+.story-card{
+background:#1f2937;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+transition:.3s;
+}
+
+.story-card:hover{
+transform:translateY(-5px);
+}
+
+.sidebar{
+background:#111827;
+padding:20px;
+border-radius:12px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:12px 0;
+border-bottom:1px solid #374151;
+}
