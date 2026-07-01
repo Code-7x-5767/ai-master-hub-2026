@@ -118,19 +118,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 function searchNews(){
 
-let search = document.getElementById("searchInput").value;
+let input=document.getElementById("searchInput").value.toLowerCase();
 
-if(search==""){
+let cards=document.querySelectorAll(".news-card,.trend-card,.story-card,.featured-card");
 
-alert("Please enter a keyword");
+cards.forEach(function(card){
+
+if(card.innerText.toLowerCase().includes(input)){
+
+card.style.display="block";
 
 }else{
 
-alert("You searched for: " + search);
+card.style.display="none";
 
 }
 
+});
+
 }
+    
 let slideIndex=0;
 
 showSlides();
