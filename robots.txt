@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/REPOSITORY-NAME/sitemap.xml
+Sitemap: https://code-7x-5767.github.io/ai-master-hub-2026/sitemap.xml
