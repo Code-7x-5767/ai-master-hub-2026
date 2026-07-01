@@ -3,13 +3,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/</loc>
+</url>
 
- <loc>https://YOUR-USERNAME.github.io/REPOSITORY-NAME/</loc>
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/ai-tools.html</loc>
+</url>
 
- <changefreq>daily</changefreq>
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/prompts.html</loc>
+</url>
 
- <priority>1.0</priority>
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/blog.html</loc>
+</url>
 
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/services.html</loc>
+</url>
+
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/about.html</loc>
+</url>
+
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/contact.html</loc>
+</url>
+
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/privacy.html</loc>
+</url>
+
+<url>
+<loc>https://code-7x-5767.github.io/ai-master-hub-2026/terms.html</loc>
 </url>
 
 </urlset>
