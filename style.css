@@ -371,3 +371,33 @@ margin-top:20px;
 font-size:14px;
 
 }
+.search-box{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.search-box input{
+width:320px;
+padding:14px;
+border:none;
+border-radius:8px;
+font-size:16px;
+outline:none;
+}
+
+.search-box button{
+padding:14px 22px;
+border:none;
+background:#38bdf8;
+color:#000;
+font-weight:bold;
+border-radius:8px;
+cursor:pointer;
+}
+
+.search-box button:hover{
+background:#0ea5e9;
+}
