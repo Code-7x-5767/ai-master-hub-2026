@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Daily Hub India</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Daily Hub India
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Contact Us</h1>
+
+<p>
+
+Have questions or suggestions?
+
+Email us anytime.
+
+</p>
+
+<h3>Email</h3>
+
+<p>
+
+contact@dailyhubindia.com
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Daily Hub India
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
