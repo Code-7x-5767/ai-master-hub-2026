@@ -99,3 +99,7 @@ newsContainer.innerHTML+=`
 });
 
 }
+// Welcome Notification
+setTimeout(() => {
+    console.log("Welcome to Daily Hub India 🚀");
+}, 1000);
