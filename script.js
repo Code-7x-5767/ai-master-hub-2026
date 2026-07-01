@@ -158,4 +158,15 @@ slides[slideIndex-1].style.display="block";
 setTimeout(showSlides,3000);
 
 }
+const darkBtn=document.getElementById("darkModeBtn");
+
+if(darkBtn){
+
+darkBtn.addEventListener("click",()=>{
+
+document.body.classList.toggle("dark-mode");
+
+});
+
+}
 
