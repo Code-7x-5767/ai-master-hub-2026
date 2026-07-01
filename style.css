@@ -444,3 +444,44 @@ z-index:1000;
 background:#111827;
 
 }
+.slider{
+
+width:90%;
+
+margin:40px auto;
+
+overflow:hidden;
+
+border-radius:15px;
+
+}
+
+.slides{
+
+display:none;
+
+}
+
+.slides img{
+
+width:100%;
+
+border-radius:15px;
+
+display:block;
+
+}
+
+.fade{
+
+animation:fade 1s;
+
+}
+
+@keyframes fade{
+
+from{opacity:.4;}
+
+to{opacity:1;}
+
+}
