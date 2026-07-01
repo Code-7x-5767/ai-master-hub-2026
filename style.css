@@ -720,5 +720,42 @@ display:flex;
 }
 
 }
+#topBtn{
+
+display:none;
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+z-index:999;
+
+background:#38bdf8;
+
+color:#000;
+
+border:none;
+
+padding:15px;
+
+border-radius:50%;
+
+cursor:pointer;
+
+font-size:20px;
+
+font-weight:bold;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+#topBtn:hover{
+
+background:#0ea5e9;
+
+}
 
 
