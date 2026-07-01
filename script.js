@@ -29,3 +29,25 @@ document.querySelectorAll('a[href="#"]').forEach(link => {
         });
     });
 });
+
+const searchBtn = document.getElementById("searchBtn");
+
+if(searchBtn){
+
+searchBtn.onclick=function(){
+
+const value=document.getElementById("searchBox").value;
+
+if(value===""){
+
+alert("Please enter a keyword.");
+
+}else{
+
+alert("Searching for : "+value);
+
+}
+
+}
+
+}
