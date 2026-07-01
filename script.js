@@ -116,4 +116,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+function searchNews(){
 
+let search = document.getElementById("searchInput").value;
+
+if(search==""){
+
+alert("Please enter a keyword");
+
+}else{
+
+alert("You searched for: " + search);
+
+}
+
+}
