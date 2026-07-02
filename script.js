@@ -4,18 +4,18 @@
 // PART - 1
 // ===============================
 
-console.log("Daily Hub India Loaded Successfully");
+console.log("AI MASTER HUB Loaded Successfully");
 
 // Current Year
 const footer = document.querySelector("footer");
 
 if (footer) {
-    footer.innerHTML = "© " + new Date().getFullYear() + " Daily Hub India";
+    footer.innerHTML = "© " + new Date().getFullYear() + " AI MASTER HUB";
 }
 
 // Welcome Message
 window.addEventListener("load", function () {
-    console.log("Welcome to Daily Hub India");
+    console.log("Welcome to AI MASTER HUB");
 });
 
 // Smooth Scroll
@@ -53,28 +53,28 @@ alert("Searching for : "+value);
 }
 const news = [
 {
-title:"AI is Changing the World",
-desc:"Artificial Intelligence is growing rapidly across every industry."
+title:"Latest ChatGPT Updates",
+desc:"Discover new ChatGPT features, tips and productivity tricks."
 },
 {
-title:"India Tech News",
-desc:"Latest technology updates from India."
+title:"Best AI Tools",
+desc:"Explore powerful AI tools for writing, coding and business."
 },
 {
-title:"Government Jobs",
-desc:"New recruitment notifications available."
+title:"Prompt Engineering",
+desc:"Learn professional prompts for ChatGPT, Gemini and Claude."
 },
 {
-title:"Cricket Updates",
-desc:"Latest cricket scores and match updates."
+title:"AI Automation",
+desc:"Automate repetitive tasks using modern AI workflows."
 },
 {
-title:"Finance",
-desc:"Market and business news."
+title:"AI Business Ideas",
+desc:"Find practical ways to earn money with AI services."
 },
 {
-title:"Movies",
-desc:"OTT and Bollywood latest updates."
+title:"Digital Marketing with AI",
+desc:"Improve SEO, ads and content creation using AI."
 }
 ];
 
@@ -101,7 +101,7 @@ newsContainer.innerHTML+=`
 }
 // Welcome Notification
 setTimeout(() => {
-    console.log("Welcome to Daily Hub India 🚀");
+    console.log("Welcome to AI MASTER HUB 🚀");
 }, 1000);
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function(e) {
